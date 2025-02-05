@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "yul_if",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "z",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "yul_switch",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "z",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AssemblyConditionalStatements.sol": "AssemblyIf"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AssemblyConditionalStatements.sol": {
+			"keccak256": "0x7b38d65fd96fcf0d101cbc3f157ceea191733f3ad36af5c7f7c0738202e979fa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://364bc5606d62c82f5d4656c3f3e59ba4d36208dfcc6e9b4c7f3e1c36286378ba",
+				"dweb:/ipfs/QmPYnMfTZvQw1ft12KkZm7Uwah8DpMJMjLRPhVvuL5RAiz"
+			]
+		}
+	},
+	"version": 1
+}

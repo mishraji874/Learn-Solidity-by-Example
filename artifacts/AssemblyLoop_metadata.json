@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "yul_for_loop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "z",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "yul_white_loop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "z",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AssemblyLoop.sol": "AssemblyLoop"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AssemblyLoop.sol": {
+			"keccak256": "0x698838fd43744f10e36f2e621f25446bc87e7745d93090b8e49b02f9b4a18751",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c070c7aa8c50380fb63a8738edc7e63def5c3cadd85a15bfeb29c280c45f7daf",
+				"dweb:/ipfs/QmciY7WTPgSjsnodcN4GNNPYk1DvrjxwxvsYDdfGobNwHK"
+			]
+		}
+	},
+	"version": 1
+}
