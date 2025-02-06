@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Applications/WriteToAnySlot.sol": "StorageSlot"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Applications/WriteToAnySlot.sol": {
+			"keccak256": "0x6db0cfb79b134208bd68f6fafb8e690b505d4858bd3fde9607f30d03fe75f614",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://44eb9eef09e77cb137286d4e91dfec058113a3f8c4419ca329185dca7be442ba",
+				"dweb:/ipfs/QmWuLyE7mp6UqjiNgihpSTkTn3LPza6u37nqboJgdz97eE"
+			]
+		}
+	},
+	"version": 1
+}

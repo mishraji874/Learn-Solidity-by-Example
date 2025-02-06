@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Applications/ECDSA.sol": "ECDSA"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Applications/ECDSA.sol": {
+			"keccak256": "0x501600de7e5d3ea98b2e313cf47c49b6e1fd8bb464d52dc2783772d8d026cf81",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://57ff9652f64b2f5571ffe162f64846e3b11a3c0ffeaea69115d533b3f9801f20",
+				"dweb:/ipfs/QmQNoteU8uz9MjqJuHN8NBiretE3qEoQAMpMEKANJcT6za"
+			]
+		}
+	},
+	"version": 1
+}

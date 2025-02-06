@@ -6,6 +6,67 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "salt",
+						"type": "uint256"
+					}
+				],
+				"name": "Deployed",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "bytecode",
+						"type": "bytes"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_salt",
+						"type": "uint256"
+					}
+				],
+				"name": "deploy",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "bytecode",
+						"type": "bytes"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_salt",
+						"type": "uint256"
+					}
+				],
+				"name": "getAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -18,46 +79,15 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "payable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "foo",
+				"name": "getBytecode",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bytes",
 						"name": "",
-						"type": "uint256"
+						"type": "bytes"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -74,7 +104,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Applications/PrecomputeContractAddressWithCreate2.sol": "TestContract"
+			"Applications/PrecomputeContractAddressWithCreate2.sol": "FactoryAssembly"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},

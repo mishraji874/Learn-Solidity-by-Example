@@ -8,44 +8,18 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_owner",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_foo",
+						"name": "_y",
 						"type": "uint256"
 					}
 				],
 				"stateMutability": "payable",
 				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "foo",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			},
 			{
 				"inputs": [],
@@ -55,6 +29,45 @@
 						"internalType": "address",
 						"name": "",
 						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "y",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -74,7 +87,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Applications/PrecomputeContractAddressWithCreate2.sol": "TestContract"
+			"Applications/DeployAnyContract.sol": "TestContract2"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -88,12 +101,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Applications/PrecomputeContractAddressWithCreate2.sol": {
-			"keccak256": "0xe3c9ae3ca4e72f0ded42e538eb97e47c606c61661998ba46e6c7cf25526134fe",
+		"Applications/DeployAnyContract.sol": {
+			"keccak256": "0x41644bcae9e64f9d7c718583ee0f78ecb08c6289483f34bdb15f4b8a516a7c34",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://68d5ecca2c29caafe37cd465ad59e5cc64c8074918c59f02600f3c6985ea3448",
-				"dweb:/ipfs/QmdyxJLw2Xy7uj98PL8BNSGUXKUtHgzo6H1BizhnJhAEWS"
+				"bzz-raw://cdc4bc5aa9a8c160078cfd1674df6e93967863b229515e7c3c5bba59387a1580",
+				"dweb:/ipfs/QmejBmZVQnbowR7adv62rGwLioNtVc3J99NcHu93HC4r5D"
 			]
 		}
 	},

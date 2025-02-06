@@ -16,40 +16,14 @@
 						"internalType": "uint256",
 						"name": "_foo",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "payable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "foo",
-				"outputs": [
+					},
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "bytes32",
+						"name": "_salt",
+						"type": "bytes32"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
+				"name": "deploy",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -57,7 +31,7 @@
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -74,7 +48,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Applications/PrecomputeContractAddressWithCreate2.sol": "TestContract"
+			"Applications/PrecomputeContractAddressWithCreate2.sol": "Factory"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},

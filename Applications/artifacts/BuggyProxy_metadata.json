@@ -6,50 +6,17 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_owner",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_foo",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "payable",
+				"inputs": [],
+				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
-				"inputs": [],
-				"name": "foo",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "fallback"
 			},
 			{
 				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
+				"name": "admin",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -59,6 +26,36 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "implementation",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_implementation",
+						"type": "address"
+					}
+				],
+				"name": "upgradeTo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -74,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Applications/PrecomputeContractAddressWithCreate2.sol": "TestContract"
+			"Applications/UpgradeableProxy.sol": "BuggyProxy"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -88,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Applications/PrecomputeContractAddressWithCreate2.sol": {
-			"keccak256": "0xe3c9ae3ca4e72f0ded42e538eb97e47c606c61661998ba46e6c7cf25526134fe",
+		"Applications/UpgradeableProxy.sol": {
+			"keccak256": "0xdc7412c11648004010bfbccb1b2e243bdbff55219b51e02ab6bc55b4734b6ad7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://68d5ecca2c29caafe37cd465ad59e5cc64c8074918c59f02600f3c6985ea3448",
-				"dweb:/ipfs/QmdyxJLw2Xy7uj98PL8BNSGUXKUtHgzo6H1BizhnJhAEWS"
+				"bzz-raw://316a98c44675f812dc10324e91d11adff79e2fe832834629b4e2bee55094977b",
+				"dweb:/ipfs/QmZa31BXNugwrvjKTFQyNybnmQy99BySgTsoQyznvGzBDb"
 			]
 		}
 	},

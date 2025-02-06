@@ -6,58 +6,42 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "TEST_SLOT",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_owner",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_foo",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "payable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "foo",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
+						"name": "_addr",
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
+				"name": "write",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -74,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Applications/PrecomputeContractAddressWithCreate2.sol": "TestContract"
+			"Applications/WriteToAnySlot.sol": "TestSlot"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -88,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Applications/PrecomputeContractAddressWithCreate2.sol": {
-			"keccak256": "0xe3c9ae3ca4e72f0ded42e538eb97e47c606c61661998ba46e6c7cf25526134fe",
+		"Applications/WriteToAnySlot.sol": {
+			"keccak256": "0x6db0cfb79b134208bd68f6fafb8e690b505d4858bd3fde9607f30d03fe75f614",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://68d5ecca2c29caafe37cd465ad59e5cc64c8074918c59f02600f3c6985ea3448",
-				"dweb:/ipfs/QmdyxJLw2Xy7uj98PL8BNSGUXKUtHgzo6H1BizhnJhAEWS"
+				"bzz-raw://44eb9eef09e77cb137286d4e91dfec058113a3f8c4419ca329185dca7be442ba",
+				"dweb:/ipfs/QmWuLyE7mp6UqjiNgihpSTkTn3LPza6u37nqboJgdz97eE"
 			]
 		}
 	},

@@ -1,0 +1,283 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable[2]",
+						"name": "_users",
+						"type": "address[2]"
+					},
+					{
+						"internalType": "uint256[2]",
+						"name": "_balances",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_expiresAt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_challengePeriod",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "nonce",
+						"type": "uint256"
+					}
+				],
+				"name": "ChallengeExit",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Withdraw",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[2]",
+						"name": "_balances",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_nonce",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes[2]",
+						"name": "_signatures",
+						"type": "bytes[2]"
+					}
+				],
+				"name": "challengeExit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "challengePeriod",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "expiresAt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "isUser",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "nonce",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "users",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes[2]",
+						"name": "_signatures",
+						"type": "bytes[2]"
+					},
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "address[2]",
+						"name": "_signers",
+						"type": "address[2]"
+					},
+					{
+						"internalType": "uint256[2]",
+						"name": "_balances",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_nonce",
+						"type": "uint256"
+					}
+				],
+				"name": "verify",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Applications/BiDirectionalPaymentChannel.sol": "BiDirectionalPaymentChannel"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Applications/BiDirectionalPaymentChannel.sol": {
+			"keccak256": "0x19045504bc9b8099aadb575075416ae49136a4c5e37f3fb5e284eb6eb72aa5c2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://990ea1d336b3f0dde5b8b0890c4db746d629c6fc4c4c267b0ecacd8596dc6a6e",
+				"dweb:/ipfs/QmRU7xNHEPWjVwuRDu4zcDzaxVJnewPVnQmtiiT18cPaHG"
+			]
+		},
+		"Applications/ECDSA.sol": {
+			"keccak256": "0x501600de7e5d3ea98b2e313cf47c49b6e1fd8bb464d52dc2783772d8d026cf81",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://57ff9652f64b2f5571ffe162f64846e3b11a3c0ffeaea69115d533b3f9801f20",
+				"dweb:/ipfs/QmQNoteU8uz9MjqJuHN8NBiretE3qEoQAMpMEKANJcT6za"
+			]
+		}
+	},
+	"version": 1
+}
