@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pwn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Hacks/Delegatecall.sol": "Lib"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Hacks/Delegatecall.sol": {
+			"keccak256": "0xa935ee840c010763a0b7f89d6721720f1fcb1802f05ac15a96f84e6489cd54c1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://47fb5c6da7b42bfc840588b0838e0aaf07199a7fbbd2b01cfb09f48ca62a4795",
+				"dweb:/ipfs/QmYv3978qiCUVGbPkLxjyaTgDi2YfmzE8jVA77ncqSauYX"
+			]
+		}
+	},
+	"version": 1
+}
