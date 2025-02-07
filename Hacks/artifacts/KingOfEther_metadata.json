@@ -6,14 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "balances",
+				"inputs": [],
+				"name": "balance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -26,29 +20,22 @@
 			},
 			{
 				"inputs": [],
-				"name": "deposit",
+				"name": "claimThrone",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getBalance",
+				"name": "king",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "withdraw",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -65,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Hacks/Reentrancy.sol": "EtherStore"
+			"Hacks/DOS.sol": "KingOfEther"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -79,12 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Hacks/Reentrancy.sol": {
-			"keccak256": "0x2c0b9ed6980ccfa48002e0f538bae88af40c2f48dc4c1e8294dcaeccf08a6be2",
+		"Hacks/DOS.sol": {
+			"keccak256": "0xe3e9d78dd5e703eab46f00b2482967f132cd6d9b49e91f16ffddc8d235054478",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://55efa47a92ace5f7aca87ccf5b702065bcf6d6c828925e7d64957906950e1942",
-				"dweb:/ipfs/QmaJhcHNLZuEJcUeSqhASyKT9pAjEVv85WvUbojC8yrWHT"
+				"bzz-raw://2f27d4743537d004a79f71fd40149961a51cf28d56006f0c907c7de82d9e27b3",
+				"dweb:/ipfs/QmZEUWjKKhXoHaHcqZdfvDvM3NmAu7buf7Egp93VUeZbrG"
 			]
 		}
 	},

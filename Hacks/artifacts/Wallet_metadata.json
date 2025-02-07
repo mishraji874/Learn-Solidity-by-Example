@@ -6,47 +6,37 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
 					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
 					}
 				],
-				"name": "balances",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "deposit",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_amount",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "withdraw",
+				"name": "transfer",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -65,7 +55,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Hacks/Reentrancy.sol": "EtherStore"
+			"Hacks/PhishingWithTxOrigin.sol": "Wallet"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -79,12 +69,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Hacks/Reentrancy.sol": {
-			"keccak256": "0x2c0b9ed6980ccfa48002e0f538bae88af40c2f48dc4c1e8294dcaeccf08a6be2",
+		"Hacks/PhishingWithTxOrigin.sol": {
+			"keccak256": "0x5899af96b894a546c0081c775e73cc1bc4a1f24759ae0739cfda433e0c7202d1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://55efa47a92ace5f7aca87ccf5b702065bcf6d6c828925e7d64957906950e1942",
-				"dweb:/ipfs/QmaJhcHNLZuEJcUeSqhASyKT9pAjEVv85WvUbojC8yrWHT"
+				"bzz-raw://115120ecfdf48eb168ba2a1288f58866528f7168e4e74e6e4f8b3544823d3eae",
+				"dweb:/ipfs/QmchRjMUWdj6HWJiANSiu2kond7voScsT6ubcaymhFpkAT"
 			]
 		}
 	},

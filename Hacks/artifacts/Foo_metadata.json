@@ -8,8 +8,8 @@
 			{
 				"inputs": [
 					{
-						"internalType": "contract Wallet",
-						"name": "_wallet",
+						"internalType": "address",
+						"name": "_bar",
 						"type": "address"
 					}
 				],
@@ -18,22 +18,9 @@
 			},
 			{
 				"inputs": [],
-				"name": "attack",
+				"name": "callBar",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address payable",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -50,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Hacks/PhishingWithTxOrigin.sol": "Attack"
+			"Hacks/HidingMaliciousCodeWithExternalContract.sol": "Foo"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -64,12 +51,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Hacks/PhishingWithTxOrigin.sol": {
-			"keccak256": "0x5899af96b894a546c0081c775e73cc1bc4a1f24759ae0739cfda433e0c7202d1",
+		"Hacks/HidingMaliciousCodeWithExternalContract.sol": {
+			"keccak256": "0x8c5f1b3ee68f0d51f4441753e3a7d51bced6a28233e62140d565a8bf40299342",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://115120ecfdf48eb168ba2a1288f58866528f7168e4e74e6e4f8b3544823d3eae",
-				"dweb:/ipfs/QmchRjMUWdj6HWJiANSiu2kond7voScsT6ubcaymhFpkAT"
+				"bzz-raw://2d969cfb0e5b54d077737305cc6ebf4c85f3bcaa9d415c50ad0f1e4d116654ec",
+				"dweb:/ipfs/QmdaLsMyxRYQpRjQwmB2BLN1hqXKy2jf4V8iZAYTrSRCAh"
 			]
 		}
 	},
