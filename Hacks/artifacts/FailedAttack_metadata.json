@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_target",
+						"type": "address"
+					}
+				],
+				"name": "pwn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Hacks/BypassContractSizeCheck.sol": "FailedAttack"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Hacks/BypassContractSizeCheck.sol": {
+			"keccak256": "0xdad993b699bf8f0e4ea3b12a059f8b84eb5f806141606dd834f28b6b06f16e8b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b1ef3e776a59846a4327aeed060cf4cbda248d1d7321d3810c38f4c58e821184",
+				"dweb:/ipfs/QmRzquyiSR5CCqpbgL7ZuFreiTeCg9DcmiiYRVPdTVRPMC"
+			]
+		}
+	},
+	"version": 1
+}

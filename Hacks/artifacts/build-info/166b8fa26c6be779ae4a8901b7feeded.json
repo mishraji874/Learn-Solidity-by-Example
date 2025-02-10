@@ -1,0 +1,84 @@
+{
+	"id": "166b8fa26c6be779ae4a8901b7feeded",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.26",
+	"solcLongVersion": "0.8.26+commit.8a97fa7a",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"Hacks/VaultInflation.sol": {
+				"content": "// Vulnerability\r\n// Vault shares can be inflated by donating ERC20 token to the vault.\r\n\r\n// Attacker can exploit this behavior to steal other user's deposits.\r\n\r\n// Example\r\n// User 0 front runs user 1's deposit.\r\n\r\n// User 0 deposits 1.\r\n// User 0 donates 100 * 1e18. This inflates the value of each share.\r\n// User 1 deposits 100 * 1e18. This mints 0 shares to user 1.\r\n// User 0 withdraws all 200 * 1e18 + 1.\r\n// Protections\r\n// Min shares -> protects from front running\r\n// Internal balance -> protects from donation\r\n// Dead shares -> contract is first depositor\r\n// Decimal offset (OpenZeppelin ERC4626)\r\n\r\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "1878",
+				"formattedMessage": "Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n--> Hacks/VaultInflation.sol\n\n",
+				"message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "Hacks/VaultInflation.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			},
+			{
+				"component": "general",
+				"errorCode": "3420",
+				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.26;\"\n--> Hacks/VaultInflation.sol\n\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.26;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "Hacks/VaultInflation.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"Hacks/VaultInflation.sol": {
+				"ast": {
+					"absolutePath": "Hacks/VaultInflation.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "615:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

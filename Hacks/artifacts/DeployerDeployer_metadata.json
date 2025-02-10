@@ -10,9 +10,9 @@
 				"inputs": [
 					{
 						"indexed": false,
-						"internalType": "string",
-						"name": "message",
-						"type": "string"
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
 					}
 				],
 				"name": "Log",
@@ -20,22 +20,9 @@
 			},
 			{
 				"inputs": [],
-				"name": "executeProposal",
+				"name": "deploy",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -52,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Hacks/DeployDifferentContractAtSameAddress.sol": "Attack"
+			"Hacks/DeployDifferentContractAtSameAddress.sol": "DeployerDeployer"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},

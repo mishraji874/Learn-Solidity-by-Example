@@ -20,22 +20,16 @@
 			},
 			{
 				"inputs": [],
-				"name": "executeProposal",
+				"name": "emergencyStop",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
+				"name": "executeProposal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -52,7 +46,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Hacks/DeployDifferentContractAtSameAddress.sol": "Attack"
+			"Hacks/DeployDifferentContractAtSameAddress.sol": "Proposal"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
