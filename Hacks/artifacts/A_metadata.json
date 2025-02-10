@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "b",
+						"type": "address"
+					}
+				],
+				"name": "f",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Hacks/GasRule.sol": "A"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Hacks/GasRule.sol": {
+			"keccak256": "0x11d9f8dae1d874e7154867e5a30257be0f74f65064bee948fb9d1c053aa9151b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://16d988e706d3eaa4f289ddfa967e431381418d0cc2d51b61d9746c8ed350315a",
+				"dweb:/ipfs/QmXEMecZPc3uDNZdeLZnWudqUSfiaAkjY43JbyUTg9hKry"
+			]
+		}
+	},
+	"version": 1
+}
