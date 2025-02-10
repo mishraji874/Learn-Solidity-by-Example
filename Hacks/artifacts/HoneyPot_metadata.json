@@ -8,36 +8,48 @@
 			{
 				"inputs": [
 					{
-						"internalType": "contract Bank",
-						"name": "_bank",
-						"type": "address"
+						"internalType": "string",
+						"name": "_a",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_b",
+						"type": "string"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
-				"inputs": [],
-				"name": "attack",
-				"outputs": [],
-				"stateMutability": "payable",
+				"name": "equal",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_caller",
+						"type": "address"
+					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_amount",
 						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_action",
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"name": "log",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -54,7 +66,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Hacks/Honeypot.sol": "Attack"
+			"Hacks/Honeypot.sol": "HoneyPot"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},

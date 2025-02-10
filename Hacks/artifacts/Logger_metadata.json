@@ -6,38 +6,51 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
 				"inputs": [
 					{
-						"internalType": "contract Bank",
-						"name": "_bank",
+						"indexed": false,
+						"internalType": "address",
+						"name": "caller",
 						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "action",
+						"type": "string"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"name": "Log",
+				"type": "event"
 			},
 			{
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
-				"inputs": [],
-				"name": "attack",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_caller",
+						"type": "address"
+					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_amount",
 						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_action",
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"name": "log",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -54,7 +67,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Hacks/Honeypot.sol": "Attack"
+			"Hacks/Honeypot.sol": "Logger"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},

@@ -8,8 +8,8 @@
 			{
 				"inputs": [
 					{
-						"internalType": "contract Bank",
-						"name": "_bank",
+						"internalType": "contract Logger",
+						"name": "_logger",
 						"type": "address"
 					}
 				],
@@ -17,19 +17,14 @@
 				"type": "constructor"
 			},
 			{
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
-				"inputs": [],
-				"name": "attack",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -38,6 +33,26 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -54,7 +69,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Hacks/Honeypot.sol": "Attack"
+			"Hacks/Honeypot.sol": "Bank"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},

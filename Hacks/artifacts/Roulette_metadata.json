@@ -6,30 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "contract Bank",
-						"name": "_bank",
-						"type": "address"
-					}
-				],
-				"stateMutability": "nonpayable",
+				"inputs": [],
+				"stateMutability": "payable",
 				"type": "constructor"
 			},
 			{
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
 				"inputs": [],
-				"name": "attack",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
+				"name": "pastBlockTime",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -38,6 +21,13 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "spin",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -54,7 +44,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Hacks/Honeypot.sol": "Attack"
+			"Hacks/BlockTimestampManipulation.sol": "Roulette"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -68,12 +58,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Hacks/Honeypot.sol": {
-			"keccak256": "0x585c29dbe1174c556b43d377642006fb55a57f30173379d5a453b2d880c5eba4",
+		"Hacks/BlockTimestampManipulation.sol": {
+			"keccak256": "0x763dcc9052bb1ba15f56b64438154b2b4e42f6ed62fec5ac9da88aa47b7535f0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b1e717be64f12c61935875388cdb3abeb710d24d248a6b6e1e5910300945c9d8",
-				"dweb:/ipfs/QmbgJgycc1kMcoPGW9eWrUbhBWT7bR9qc8atNguKWwth7x"
+				"bzz-raw://9ce059a7434ed24753bd69be3606d8cb44424a04a48bab3c4ecc91d8ef5350c1",
+				"dweb:/ipfs/QmaEAVWuiCaZoTJzwpogyPCh4qAKLNYCjkj9F2SF3ty9B4"
 			]
 		}
 	},

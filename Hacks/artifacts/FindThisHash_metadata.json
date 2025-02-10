@@ -6,38 +6,34 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "contract Bank",
-						"name": "_bank",
-						"type": "address"
-					}
-				],
-				"stateMutability": "nonpayable",
+				"inputs": [],
+				"stateMutability": "payable",
 				"type": "constructor"
 			},
 			{
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
 				"inputs": [],
-				"name": "attack",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
+				"name": "hash",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bytes32",
 						"name": "",
-						"type": "uint256"
+						"type": "bytes32"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "solution",
+						"type": "string"
+					}
+				],
+				"name": "solve",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -54,7 +50,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Hacks/Honeypot.sol": "Attack"
+			"Hacks/FrontRunning.sol": "FindThisHash"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -68,12 +64,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Hacks/Honeypot.sol": {
-			"keccak256": "0x585c29dbe1174c556b43d377642006fb55a57f30173379d5a453b2d880c5eba4",
+		"Hacks/FrontRunning.sol": {
+			"keccak256": "0xb3c75cdb0a00af8f4e8d566f1edf3db49b6cc3c0e150c0b2695f9207b52a0d67",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b1e717be64f12c61935875388cdb3abeb710d24d248a6b6e1e5910300945c9d8",
-				"dweb:/ipfs/QmbgJgycc1kMcoPGW9eWrUbhBWT7bR9qc8atNguKWwth7x"
+				"bzz-raw://4690da6acb5597f457a93617f2e0ef6b1540b909e8dd0de4e9f03ef0e27682f4",
+				"dweb:/ipfs/QmPQJJpzsVQ7yp5xeV4rRmX8DECCwQen27rhFCurSnkvkW"
 			]
 		}
 	},
