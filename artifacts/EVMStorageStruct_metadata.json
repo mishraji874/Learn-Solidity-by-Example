@@ -1,0 +1,138 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "multi",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "c",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "single",
+				"outputs": [
+					{
+						"internalType": "uint128",
+						"name": "x",
+						"type": "uint128"
+					},
+					{
+						"internalType": "uint64",
+						"name": "y",
+						"type": "uint64"
+					},
+					{
+						"internalType": "uint64",
+						"name": "z",
+						"type": "uint64"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test_get_multiple_slot_structs",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "c",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test_get_single_slot_struct",
+				"outputs": [
+					{
+						"internalType": "uint128",
+						"name": "x",
+						"type": "uint128"
+					},
+					{
+						"internalType": "uint64",
+						"name": "y",
+						"type": "uint64"
+					},
+					{
+						"internalType": "uint64",
+						"name": "z",
+						"type": "uint64"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"EVMStorageLayout.sol": "EVMStorageStruct"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"EVMStorageLayout.sol": {
+			"keccak256": "0x06ea0cd1187e677bb6822382249552a5e307e9302fee042fe42a7c3a387047a0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7de4bbb6dbf991ee4482e0bee41a26cc02d77b174caf2962e00916ba5d4a10db",
+				"dweb:/ipfs/QmPUkDZmzcAkYQFtfrkETzSw2FCcyhK9nHqbgfDrnsNj2K"
+			]
+		}
+	},
+	"version": 1
+}

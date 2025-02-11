@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "test_arr_0",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "v",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "test_arr_1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "v",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "test_arr_2",
+				"outputs": [
+					{
+						"internalType": "uint128",
+						"name": "v",
+						"type": "uint128"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"EVMStorageLayout.sol": "EVMStorageFixedArray"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"EVMStorageLayout.sol": {
+			"keccak256": "0x06ea0cd1187e677bb6822382249552a5e307e9302fee042fe42a7c3a387047a0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7de4bbb6dbf991ee4482e0bee41a26cc02d77b174caf2962e00916ba5d4a10db",
+				"dweb:/ipfs/QmPUkDZmzcAkYQFtfrkETzSw2FCcyhK9nHqbgfDrnsNj2K"
+			]
+		}
+	},
+	"version": 1
+}

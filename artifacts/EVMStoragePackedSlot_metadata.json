@@ -1,0 +1,202 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "s_a",
+				"outputs": [
+					{
+						"internalType": "uint128",
+						"name": "",
+						"type": "uint128"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "s_addr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "s_b",
+				"outputs": [
+					{
+						"internalType": "uint64",
+						"name": "",
+						"type": "uint64"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "s_c",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "s_d",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "s_x",
+				"outputs": [
+					{
+						"internalType": "uint64",
+						"name": "",
+						"type": "uint64"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "s_y",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test_slot_0_offset",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "a_offset",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b_offset",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "c_offset",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "d_offset",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test_slot_1_offset",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "addr_offset",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "x_offset",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y_offset",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test_sstore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test_sstore_using_offset",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"EVMStorageLayout.sol": "EVMStoragePackedSlot"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"EVMStorageLayout.sol": {
+			"keccak256": "0x06ea0cd1187e677bb6822382249552a5e307e9302fee042fe42a7c3a387047a0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7de4bbb6dbf991ee4482e0bee41a26cc02d77b174caf2962e00916ba5d4a10db",
+				"dweb:/ipfs/QmPUkDZmzcAkYQFtfrkETzSw2FCcyhK9nHqbgfDrnsNj2K"
+			]
+		}
+	},
+	"version": 1
+}
