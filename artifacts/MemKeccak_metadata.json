@@ -7,28 +7,28 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "count",
+				"name": "keccak",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bytes32",
 						"name": "",
-						"type": "uint256"
+						"type": "bytes32"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "inc",
+				"name": "test_keccak",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bytes32",
 						"name": "",
-						"type": "uint256"
+						"type": "bytes32"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"EVMMemoryLayout.sol": "Counter"
+			"EVMMemoryLayout.sol": "MemKeccak"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},

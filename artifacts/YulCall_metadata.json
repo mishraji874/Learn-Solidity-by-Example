@@ -6,25 +6,42 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "count",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "a",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
 					}
 				],
-				"stateMutability": "view",
+				"name": "test_call",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "out",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "inc",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "counter",
+						"type": "address"
+					}
+				],
+				"name": "test_inc",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "count",
 						"type": "uint256"
 					}
 				],
@@ -45,7 +62,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"EVMMemoryLayout.sol": "Counter"
+			"EVMMemoryLayout.sol": "YulCall"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},

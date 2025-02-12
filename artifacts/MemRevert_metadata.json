@@ -7,28 +7,16 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "count",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "test_revert",
+				"outputs": [],
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "inc",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
+				"name": "test_revert_with_error_msg",
+				"outputs": [],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -45,7 +33,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"EVMMemoryLayout.sol": "Counter"
+			"EVMMemoryLayout.sol": "MemRevert"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},

@@ -7,28 +7,53 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "count",
+				"name": "test_read",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "x",
 						"type": "uint256"
+					},
+					{
+						"internalType": "uint32",
+						"name": "y",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "z",
+						"type": "uint32"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "inc",
+				"name": "test_write",
 				"outputs": [
 					{
+						"internalType": "bytes32",
+						"name": "free_mem_ptr",
+						"type": "bytes32"
+					},
+					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "z",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -45,7 +70,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"EVMMemoryLayout.sol": "Counter"
+			"EVMMemoryLayout.sol": "MemStruct"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
