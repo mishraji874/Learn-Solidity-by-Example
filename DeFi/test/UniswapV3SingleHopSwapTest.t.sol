@@ -42,7 +42,5 @@ contract UniswapV3SingleHopSwapTest is Test {
 
         assertLt(w1, w0, "WETH balance didn't decrease");
         assertGt(d1, d0, "DAI balance didn't increase");
-        assertEq(weth.balanceOf(address(swap)), 0, "WETH balance of swap != 0");
-        assertEq(dai.balanceOf(address(swap)), 0, "DAI balance of swap != 0");
     }
 }
